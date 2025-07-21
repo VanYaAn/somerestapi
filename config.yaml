@@ -1,0 +1,14 @@
+server:
+  port: ":8080"
+  host: "0.0.0.0"
+
+database:
+  driver: "postgres"
+  host: "db"
+  port: "5432"
+  username: "your_username"
+  password: "your_password"
+  name: "your_database_name"
+
+logger:
+  level: "info"
